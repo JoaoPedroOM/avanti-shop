@@ -2,7 +2,241 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title>Avanti Shop</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,75..125,200..1000,440..540;1,6..12,75..125,200..1000,440..540&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="promo-header">
+      <p>
+        Ganhe <span class="desconto">R$10,00</span> de desconto no seu primeiro
+        pedido. Utilize o cupom <span class="cupom">DESCONTO10</span>
+      </p>
+    </div>
+    <header class="header">
+      <div class="header__container">
+
+        <div class="header__logo-search">
+          <div class="header__logo">
+            <img src="./img/icones/menu.svg" alt="Icone de menu" class="menu__mobile"/>
+            <img src="./img/logo/logo.svg" alt="Logo da Avanti Shop" />
+            <div class="header__cart__mobile">
+                <div class="cart__icon">
+                  <img src="./img/icones/card.svg" alt="Carrinho de compras" />
+                  <span class="cart__badge">2</span>
+                </div>
+              </div>
+          </div>
+          
+
+          <div class="header__search">
+            <input
+              type="text"
+              placeholder="Digite aqui o que você procura"
+              aria-label="Pesquisar"
+            />
+            <button class="search__button">
+              <img src="./img/icones/search.svg" alt="Ícone de pesquisa" />
+            </button>
+          </div>
+        </div>
+
+        <div class="header__user-cart">
+            <div class="header__user">
+              <img src="./img/icones/people.svg" alt="Ícone de usuário" />
+              <p>Olá,</br> João Pedro</p>
+            </div>
+  
+            <div class="header__cart">
+              <div class="cart__icon">
+                <img src="./img/icones/card.svg" alt="Carrinho de compras" />
+                <span class="cart__badge">2</span>
+              </div>
+            </div>
+
+        </div>    
+      </div>
+        <!-- Navbar -->
+        <nav class="main-nav">
+            <div class="nav-container">
+              <button class="all-categories">
+                <span class="hamburger-icon"><img src="./img/icones/menu.svg"/></span>
+                Todas as Categorias
+              </button>
+              
+              <div class="top-departments">
+                <a href="#" class="department-link">Departamento</a>
+                <a href="#" class="department-link">Departamento</a>
+                <a href="#" class="department-link">Departamento</a>
+                <a href="#" class="department-link">Departamento</a>
+                <a href="#" class="department-link">Departamento</a>
+                <a href="#" class="department-link">Departamento</a>
+                <a href="#" class="department-link">Departamento</a>
+                <a href="#" class="department-link">Departamento</a>
+              </div>
+            </div>
+            
+            <div class="dropdown-content">
+              <div class="departments-column">
+                <div class="department-item">
+                  <a href="#" class="department-title">Departamento</a>
+                  <span class="arrow">›</span>
+                </div>
+                <div class="department-item">
+                  <a href="#" class="department-title">Departamento</a>
+                  <span class="arrow">›</span>
+                </div>
+                <div class="department-item">
+                  <a href="#" class="department-title">Departamento</a>
+                  <span class="arrow">›</span>
+                </div>
+                <div class="department-item">
+                  <a href="#" class="department-title">Departamento</a>
+                  <span class="arrow">›</span>
+                </div>
+                <div class="department-item">
+                  <a href="#" class="department-title">Departamento</a>
+                  <span class="arrow">›</span>
+                </div>
+                <div class="department-item">
+                  <a href="#" class="department-title">Departamento</a>
+                  <span class="arrow">›</span>
+                </div>
+                <div class="department-item">
+                  <a href="#" class="department-title">Departamento</a>
+                  <span class="arrow">›</span>
+                </div>
+                <div class="department-item">
+                  <a href="#" class="department-title">Departamento</a>
+                  <span class="arrow">›</span>
+                </div>
+                <div class="department-item">
+                  <a href="#" class="department-title">Departamento</a>
+                  <span class="arrow">›</span>
+                </div>
+                <div class="department-item">
+                  <a href="#" class="department-title">Departamento</a>
+                  <span class="arrow">›</span>
+                </div>
+              </div>
+              
+              <div class="categories-columns">
+                <div class="category-column">
+                  <h4>Categoria</h4>
+                  <ul>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                  </ul>
+                </div>
+                
+                <div class="category-column">
+                  <h4>Categoria</h4>
+                  <ul>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                  </ul>
+                </div>
+                
+                <div class="category-column">
+                  <h4>Categoria</h4>
+                  <ul>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Categoria</a></li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="featured-banner">
+                <div class="banner-content">
+                  <h3>Confira os Produtos</h3>
+                  <h2>Que acabaram</h2>
+                  <h2>De chegar</h2>
+                  <a href="#" class="btn-ver-todos">VER TODOS</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="departments-dropdown">
+                <h4 class="departments-title">Departamento</h4>
+                <div class="categories-columns">
+                  <div class="category-column">
+                    <h4>Categoria</h4>
+                    <ul>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                    </ul>
+                  </div>
+                  
+                  <div class="category-column">
+                    <h4>Categoria</h4>
+                    <ul>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                    </ul>
+                  </div>
+                  
+                  <div class="category-column">
+                    <h4>Categoria</h4>
+                    <ul>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                      <li><a href="#">Categoria</a></li>
+                    </ul>
+                  </div>
+                  
+                  <div class="featured-banner">
+                    <div class="banner-content">
+                      <h3>Confira os</h3>
+                      <h2>Produtos</h2>
+                      <h3>Que acabaram</h3>
+                      <h3>De chegar</h3>
+                      <a href="#" class="btn-ver-todos">VER TODOS</a>
+                    </div>
+                  </div>
+            </div>
+
+          </nav>
+    </header>
+  </body>
 </html>
