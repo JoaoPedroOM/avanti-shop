@@ -4,6 +4,9 @@
 /* Hero */
 @import "./hero/hero.css";
 
+/* Produtos */
+@import "./produtos/produtos.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -14,3 +17,6 @@
   font-size: 62.5%;
 }
 
+html {
+  overflow-x: hidden; 
+}
