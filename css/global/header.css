@@ -188,8 +188,9 @@
   align-items: center;
 }
 
-.department-link:hover {
+.department-main:hover {
   color: #005cff;
+  font-weight: bold;
 }
 
 .dropdown-content {
@@ -353,7 +354,7 @@
   padding: 20px 0 0 34px;
 }
 
-.main-nav:has(.top-departments:hover) .departments-dropdown,
+.main-nav:has(.department-main:hover) .departments-dropdown,
 .departments-dropdown:hover {
   opacity: 1;
   visibility: visible;
@@ -398,6 +399,10 @@
     flex-direction: column;
     gap: 1.5rem;
     padding: 1.5rem;
+  }
+
+  .main-nav{
+    display: none;
   }
 
   .all-categories {

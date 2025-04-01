@@ -1,6 +1,9 @@
 @import "./global/global.css";
 @import "./global/header.css";
 
+/* Hero */
+@import "./hero/hero.css";
+
 * {
   margin: 0;
   padding: 0;
