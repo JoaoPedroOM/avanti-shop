@@ -39,7 +39,7 @@
   border-radius: 5px;
   overflow: hidden;
   position: relative;
-  margin-right: 2rem; 
+  margin-right: 2rem;
 }
 
 .product-image {
@@ -206,6 +206,14 @@
 @media (max-width: 768px) {
   .products-container {
     gap: 1rem;
+  }
+
+  .product-card {
+    margin-right: 0.8rem;
+  }
+
+  .product-details {
+    padding: 13px;
   }
 
   .discount-tag {
