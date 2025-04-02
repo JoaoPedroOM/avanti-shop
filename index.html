@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title>Avanti Shop</title>
+    <link rel="icon" href="./img/logo/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="./css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
@@ -19,6 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./js/footer.js" defer></script>
   </head>
   <body>
     <section class="promo-header">
@@ -165,9 +167,10 @@
           </div>
           <div class="featured-banner">
             <div class="banner-content">
-              <h3>Confira os Produtos</h3>
-              <h2>Que acabaram</h2>
-              <h2>De chegar</h2>
+              <h3>Confira os</h3>
+              <h2>Produtos</h2>
+              <h3>Que acabaram</h3>
+              <h3>De chegar</h3>
               <a href="#" class="btn-ver-todos">VER TODOS</a>
             </div>
           </div>
@@ -571,6 +574,89 @@
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer__container">
+        
+        <div class="footer-nav">
+          <div class="footer-col">
+            <div class="footer-top">
+              <div class="logo">
+                <img src="./img/logo/logo.svg" alt="AVANTI">
+              </div>
+              <div class="social-icons">
+                <a href="#" class="social-icon">
+                <img src="./img/redes/instagram.svg"/>
+                </a>
+                <a href="#" class="social-icon">
+                <img src="./img/redes/facebook.svg"/>
+                </a>
+                <a href="#" class="social-icon">
+                <img src="./img/redes/youtube.svg"/>
+                </a>
+                <a href="#" class="social-icon">
+                <img src="./img/redes/tiktok.svg"/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Institucional</h4>
+            <ul>
+              <li><a href="#">Sobre Nós</a></li>
+              <li><a href="#">Nossas Lojas</a></li>
+              <li><a href="#">Privacidade e Segurança</a></li>
+              <li><a href="#">Termos e Condições</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Central de ajuda</h4>
+            <ul>
+              <li><a href="#">Fale Conosco</a></li>
+              <li><a href="#">Frete e Entrega</a></li>
+              <li><a href="#">Trocas e Devoluções</a></li>
+              <li><a href="#">Formas de Pagamento</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Atendimento</h4>
+            <ul>
+              <li><a href="#"><span>Telefone:</span> (00) 1234-5678</a></li>
+              <li><a href="#"><span>E-mail:</span> exemplo@exemplo.com.br</a></li>
+            </ul>
+            <div class="horario">
+              <p class="horario__detail">Horário de atendimento:</p>
+              <p>Segunda a Sábado: 07h00 às 23h00</p>
+              <p>Domingos e Feriados: 07h00 às 21h00</p>
+            </div>
+          </div>
+        </div>
+        <div class="payment-methods">
+          <img src="./img//pagamentos/amex.svg" alt="Cartão" class="payment-icon"/>
+          <img src="./img//pagamentos/master.svg" alt="Mastercard" class="payment-icon">
+          <img src="./img//pagamentos/visa.svg" alt="Visa" class="payment-icon">
+          <img src="./img//pagamentos/hipercard.svg" alt="Hipercard" class="payment-icon">
+          <img src="./img//pagamentos/elo.svg" alt="Elo" class="payment-icon"/>
+          <img src="./img//pagamentos/diners.svg" alt="Diners" class="payment-icon">
+          <img src="./img//pagamentos/paypal.svg"  alt="PayPal" class="payment-icon">
+          <img src="./img//pagamentos/pix.svg" alt="Pix" class="payment-icon">
+          <img src="./img//pagamentos/boleto.svg"  alt="Barcode" class="payment-icon">
+        </div>
+    </footer>
+    <div class="footer__copyright">
+      <div class="footer__copyright__container">
+        <div class="footer-text">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugiat nulla facilisi.
+        </div>
+        <div class="partners">
+          <img src="./img/parceiros/lets.svg" alt="Let's Encrypt" class="partner-logo"/>
+          <img src="./img/parceiros/vtex-pci.svg" alt="Payment" class="partner-logo"/>
+          <img src="./img/parceiros/avanti.svg" alt="AVANTI" class="partner-logo"/>
+          <img src="./img/parceiros/vtex.svg" alt="VTEX" class="partner-logo"/>
+        </div>
+      </div>
+    </div>
+  </div>
     <script>
       $(document).ready(function(){
       $('.slick').slick({

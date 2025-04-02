@@ -123,7 +123,7 @@
   height: 20px;
   background-color: #005cff;
   color: white;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: bold;
   border-radius: 50%;
   display: flex;
@@ -181,7 +181,7 @@
   font-weight: 500;
   text-decoration: none;
   padding: 0 15px;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: "Nunito Sans", sans-serif;
   height: 50px;
   display: flex;
@@ -232,7 +232,7 @@
 .department-title {
   color: #303030;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: "Nunito Sans", sans-serif;
 }
 
@@ -257,7 +257,7 @@
   color: #005cff;
   margin-bottom: 15px;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
@@ -274,7 +274,7 @@
 .category-column a {
   color: #656565;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: "Nunito", sans-serif;
 }
 
@@ -311,7 +311,7 @@
 }
 
 .banner-content h2 {
-  font-size: 24px;
+  font-size: 2.4rem;
   margin: 0 0 5px 0;
   font-weight: bold;
   font-family: "Nunito", sans-serif;
@@ -324,9 +324,9 @@
   border: 1px solid white;
   color: white;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-family: "Nunito", sans-serif;
-  border-radius: 3px;
+  border-radius: 8px;
   transition: all 0.3s;
 }
 
@@ -361,12 +361,12 @@
 }
 
 .banner-content h3 {
-  font-size: 16px;
+  font-size: 2rem;
   margin-bottom: 5px;
 }
 
 .banner-content h2 {
-  font-size: 20px;
+  font-size: 2rem;
   margin-bottom: 5px;
 }
 
@@ -380,7 +380,7 @@
 
 .btn-ver-todos {
   padding: 6px 15px;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
