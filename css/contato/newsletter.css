@@ -1,0 +1,83 @@
+.newsletter__container{
+    max-width: 128rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+}
+
+.newsletter__title{
+    font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 2.4rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.newsletter__title span{
+    color: #005CFF;
+}
+
+.newsletter__content{
+    background-color: #DEDEDE;
+    border-radius: 10px;
+    padding: 6rem 11rem;
+}
+
+/* Form */
+.newsletter__form {
+    display: flex;
+    gap: 2.4rem;
+    flex-wrap: wrap; 
+}
+
+.newsletter__form input {
+    font-family: "Nunito Sans", sans-serif;
+    padding: 1.5rem 2.4rem;
+    border: none;
+    border-radius: 8px;
+    flex-grow: 1;
+}
+
+.newsletter__checkbox {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight:700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #656565;
+}
+
+.newsletter__checkbox input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.newsletter__checkbox label {
+    font-size: 1.2rem;
+}
+
+.newsletter__checkbox span {
+    text-decoration: underline;
+}
+
+.newsletter__form button {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    padding: 1.4rem 2.4rem;
+    background-color: #005CFF;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+@media (max-width: 980px) {
+    .newsletter__content{
+        padding: 3.8rem 1.6rem;
+    }
+    .newsletter__form button {
+        width: 100%; 
+    }
+    
+}

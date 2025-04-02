@@ -11,6 +11,10 @@
 @import "./home/productOverview.css";
 @import "./home/productFeatures.css";
 
+/* Contato */
+@import "./contato/contato.css";
+@import "./contato/newsletter.css";
+
 * {
   margin: 0;
   padding: 0;
