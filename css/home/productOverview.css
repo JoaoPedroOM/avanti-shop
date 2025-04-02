@@ -1,0 +1,64 @@
+.overview__container {
+  max-width: 120rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+.overview__content {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.overview__image {
+  width: fit;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex: 1;
+}
+
+.overview__image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.overview__text {
+  flex: 1;
+  font-family: "Nunito", sans-serif;
+}
+
+.overview__title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.overview__paragraph {
+  font-size: 1.4rem;
+}
+.overview__paragraph.first {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 985px) {
+    .overview__container {
+        padding-left: 0rem;
+        padding-right: 0rem;
+      }
+      .overview__title{
+  font-size: 2.5rem;
+
+      }
+    .overview__content{
+        flex-direction: column;
+      }
+      .overview__text{
+        padding: 0 1.5rem 0 1.5rem;
+      }
+}

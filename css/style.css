@@ -7,6 +7,10 @@
 /* Produtos */
 @import "./produtos/produtos.css";
 
+/* Home */
+@import "./home/productOverview.css";
+@import "./home/productFeatures.css";
+
 * {
   margin: 0;
   padding: 0;

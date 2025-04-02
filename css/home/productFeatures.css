@@ -1,0 +1,112 @@
+.about-product-features {
+  width: 100%;
+  background-color: #dedede;
+  margin-bottom: 5rem;
+}
+
+.features__content {
+  max-width: 120rem;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.features__list {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.features__list-title {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #4f4f4f;
+  margin-bottom: 5rem;
+}
+
+.features__image {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.features__image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Item da lista */
+.feature__item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.feature__item:last-child {
+  margin-bottom: 0;
+}
+
+.feature__text {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  color: #4f4f4f;
+}
+
+.feature__icon {
+  padding: 4rem;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #005cff;
+}
+
+.feature__icon img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+@media (max-width: 985px) {
+
+.features__content {
+  flex-direction: column-reverse;
+}
+
+.features__list-title {
+  font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .feature__item {
+    margin-bottom: 2rem;
+  }
+
+  .feature__text {
+    font-size: 1.4rem;
+  }
+
+  .feature__icon {
+    padding: 3.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .feature__icon img {
+    width: 35px;
+    height: 35px;
+  }
+
+}
