@@ -25,14 +25,6 @@
   object-fit: contain;
 }
 
-.mobile-image {
-  display: none;
-}
-
-.desktop-image {
-  display: block;
-}
-
 /* Textos */
 .hero__container {
   display: flex;
@@ -109,6 +101,10 @@
 }
 
 @media (max-width: 630px) {
+  .hero__image-container {
+    width: 100%;
+  }
+  
   .hero__container {
     padding-right: 2rem;
   }
@@ -136,21 +132,5 @@
   }
   .desktop-text {
     display: none;
-  }
-}
-
-@media (max-width: 400px) {
-  .desktop-image {
-    display: none;
-  }
-  .mobile-image {
-    display: block;
-    width: 400px;
-    height: auto;
-  }
-
-  .mobile-image {
-    width: 225px;
-    height: auto;
   }
 }
