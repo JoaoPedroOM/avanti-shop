@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./js/buscaProduto.js" defer></script>
     <script src="./js/footer.js" defer></script>
   </head>
   <body>
@@ -46,9 +47,10 @@
             <input
               type="text"
               placeholder="Digite aqui o que você procura"
+              id="search-input"
               aria-label="Pesquisar"
               />
-            <button class="search__button">
+            <button class="search__button" id="search-button">
             <img src="./img/icones/search.svg" alt="Ícone de pesquisa" />
             </button>
           </div>
@@ -242,6 +244,7 @@
     </section>
     <main>
       <div class="container">
+        <div id="search-result"></div>
         <header class="lancamentos-header">
           <h2>Lançamentos</h2>
           <a href="#" class="ver-mais">Ver mais</a>

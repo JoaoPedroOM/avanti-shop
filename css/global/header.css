@@ -51,6 +51,13 @@
   align-items: center;
 }
 
+#search-result {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #000;
+  font-weight: 800;
+}
+
 .header__search input {
   width: 100%;
   border: none;

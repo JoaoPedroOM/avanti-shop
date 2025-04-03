@@ -84,6 +84,9 @@
 }
 
 @media (max-width: 930px) {
+  .hero {
+    margin-bottom: 5.6rem;
+  }
   .hero__image {
     width: 400px;
     height: auto;
