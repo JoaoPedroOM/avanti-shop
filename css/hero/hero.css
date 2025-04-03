@@ -25,6 +25,14 @@
   object-fit: contain;
 }
 
+.mobile-image {
+  display: none;
+}
+
+.desktop-image {
+  display: block;
+}
+
 /* Textos */
 .hero__container {
   display: flex;
@@ -132,5 +140,21 @@
   }
   .desktop-text {
     display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .desktop-image {
+    display: none;
+  }
+  .mobile-image {
+    display: block;
+    width: 400px;
+    height: auto;
+  }
+
+  .mobile-image {
+    width: 225px;
+    height: auto;
   }
 }
