@@ -5,8 +5,32 @@
   align-items: center;
   justify-content: center;
   font-family: "Nunito", sans-serif;
-  padding: 0 1rem;
+  padding: 0;
   margin-bottom: 9rem;
+  height: auto;
+  overflow: hidden;
+}
+
+.hero__image-container {
+  height: 100%;
+  display: flex;
+}
+
+/* Imagens */
+.hero__image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.mobile-image {
+  display: none;
+}
+
+.desktop-image {
+  display: block;
 }
 
 /* Textos */
@@ -52,11 +76,9 @@
   .hero__title {
     font-size: 6rem;
   }
-
   .hero__description {
     font-size: 1.5rem;
   }
-
   .hero__desconto {
     font-size: 4rem;
   }
@@ -69,15 +91,12 @@
     align-items: center;
     justify-content: center;
   }
-
   .hero__title {
     font-size: 4rem;
   }
-
   .hero__description {
     font-size: 1.2rem;
   }
-
   .hero__desconto {
     font-size: 3.2rem;
   }
@@ -87,20 +106,13 @@
   .hero {
     margin-bottom: 5.6rem;
   }
-  .hero__image {
-    width: 400px;
-    height: auto;
-  }
 }
 
 @media (max-width: 630px) {
   .hero__container {
     padding-right: 2rem;
   }
-  .hero__image {
-    width: 225px;
-    height: auto;
-  }
+
   .hero__title {
     text-align: center;
     line-height: 1;
@@ -115,7 +127,6 @@
   .hero__desconto {
     font-size: 2.5rem;
   }
-
   .hero__description {
     letter-spacing: 0rem;
     font-size: 1rem;
@@ -123,8 +134,23 @@
   .mobile-text {
     display: block;
   }
-  .desktop-text{
+  .desktop-text {
     display: none;
   }
+}
 
+@media (max-width: 400px) {
+  .desktop-image {
+    display: none;
+  }
+  .mobile-image {
+    display: block;
+    width: 400px;
+    height: auto;
+  }
+
+  .mobile-image {
+    width: 225px;
+    height: auto;
+  }
 }

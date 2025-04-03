@@ -1,23 +1,22 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta name="description" content="A Avanti oferece uma ampla variedade de produtos de qualidade para atender às suas necessidades. Descubra as melhores ofertas e compre com confiança na nossa loja online.">
     <title>Avanti Shop</title>
     <link rel="icon" href="./img/logo/logo.svg" type="image/x-icon" />
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,75..125,200..1000,440..540;1,6..12,75..125,200..1000,440..540&display=swap" rel="stylesheet" />
+  
     <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-      rel="stylesheet"
-      />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,75..125,200..1000,440..540;1,6..12,75..125,200..1000,440..540&display=swap"
-      rel="stylesheet"
-      />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="./js/buscaProduto.js" defer></script>
@@ -35,7 +34,7 @@
         <div class="header__logo-search">
           <div class="header__logo">
             <img src="./img/icones/menu.svg" alt="Icone de menu" class="menu__mobile"/>
-            <img src="./img/logo/logo.svg" alt="Logo da Avanti Shop" />
+            <img src="./img/logo/logo.svg" alt="Logo Avanti" />
             <div class="header__cart__mobile">
               <div class="cart__icon">
                 <img src="./img/icones/card.svg" alt="Carrinho de compras" />
@@ -72,7 +71,7 @@
       <nav class="main-nav">
         <div class="nav-container">
           <button class="all-categories">
-          <span class="hamburger-icon"><img src="./img/icones/menu.svg"/></span>
+          <span class="hamburger-icon"><img src="./img/icones/menu.svg"/ alt="Icone de menu"></span>
           Todas as Categorias
           </button>
           <div class="top-departments">
@@ -232,8 +231,9 @@
       </nav>
     </header>
     <section class="hero">
-      <div>
-        <img src="./img/fotos/hero.png" alt="banner" class="hero__image"/>
+      <div class="hero__image-container">
+        <img src="./img/fotos/hero.webp" alt="banner" class="hero__image desktop-image"/>
+        <img src="./img/fotos/hero_mobile.webp" alt="banner" class="hero__image mobile-image"/>
       </div>
       <div class="hero__container">
         <h1 class="hero__title"><span class="hero__highlight">super</span>sale</h1>
@@ -370,7 +370,7 @@
       <section class="overview__container">
         <div class="overview__content">
           <div  class="overview__image">
-            <img src="./img/fotos/primeiro_banner.png" alt="Imagem do produto"/>
+            <img src="./img/fotos/primeiro_banner.webp" alt="Imagem do produto"/>
           </div>
           <div class="overview__text">
             <h3 class="overview__title">Lorem Ipsum</h3>
@@ -389,21 +389,21 @@
             <!-- Um item da lista -->
             <div class="feature__item">
               <div class="feature__icon">
-                <img src="./img/icones/map-pin.svg"/>
+                <img src="./img/icones/map-pin.svg"/ alt="Icone de localização">
               </div>
               <p class="feature__text">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
             </div>
             <!-- Um item da lista -->
             <div class="feature__item">
               <div class="feature__icon">
-                <img src="./img/icones/map-pin.svg"/>
+                <img src="./img/icones/map-pin.svg" alt="Icone de localização"/>
               </div>
               <p class="feature__text">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
             </div>
             <!-- Um item da lista -->
             <div class="feature__item">
               <div class="feature__icon">
-                <img src="./img/icones/map-pin.svg"/>
+                <img src="./img/icones/map-pin.svg" alt="Icone de localização"/>
               </div>
               <p class="feature__text">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
             </div>
@@ -418,7 +418,7 @@
       <section class="overview__container">
         <div class="overview__content">
           <div  class="overview__image">
-            <img src="./img/fotos/primeiro_banner.png" alt="Imagem do produto"/>
+            <img src="./img/fotos/primeiro_banner.webp" alt="Imagem do produto"/>
           </div>
           <div class="overview__text">
             <h3 class="overview__title">Lorem Ipsum</h3>
@@ -588,16 +588,16 @@
               </div>
               <div class="social-icons">
                 <a href="#" class="social-icon">
-                <img src="./img/redes/instagram.svg"/>
+                <img src="./img/redes/instagram.svg" alt="Logo Instagram"/>
                 </a>
                 <a href="#" class="social-icon">
-                <img src="./img/redes/facebook.svg"/>
+                <img src="./img/redes/facebook.svg" alt="Logo Facebook"/>
                 </a>
                 <a href="#" class="social-icon">
-                <img src="./img/redes/youtube.svg"/>
+                <img src="./img/redes/youtube.svg" alt="Logo Youtube"/>
                 </a>
                 <a href="#" class="social-icon">
-                <img src="./img/redes/tiktok.svg"/>
+                <img src="./img/redes/tiktok.svg" alt="Logo TikTok"/>
                 </a>
               </div>
             </div>
@@ -654,8 +654,8 @@
         <div class="partners">
           <img src="./img/parceiros/lets.svg" alt="Let's Encrypt" class="partner-logo"/>
           <img src="./img/parceiros/vtex-pci.svg" alt="Payment" class="partner-logo"/>
-          <img src="./img/parceiros/avanti.svg" alt="AVANTI" class="partner-logo"/>
-          <img src="./img/parceiros/vtex.svg" alt="VTEX" class="partner-logo"/>
+          <img src="./img/parceiros/avanti.svg" alt="Avanti" class="partner-logo"/>
+          <img src="./img/parceiros/vtex.svg" alt="Vtex" class="partner-logo"/>
         </div>
       </div>
     </div>
